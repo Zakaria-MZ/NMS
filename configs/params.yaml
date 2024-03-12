@@ -1,0 +1,14 @@
+
+mongodb:
+  host: "localhost"
+  port: 27017
+  db_name: "mongodb"
+  connectionString: "mongodb://localhost:27017/" 
+
+fastapi:
+  host: "0.0.0.0"
+  port: 8000
+  reload: true 
+  log_level: "info" 
+
+# Additional settings can be added as required
